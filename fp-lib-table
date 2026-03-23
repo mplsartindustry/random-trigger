@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MAI_Connector_Audio")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Connector_Audio.pretty")(options "")(descr ""))
+  (lib (name "MAI_PanelHole")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_PanelHole.pretty")(options "")(descr ""))
+  (lib (name "MAI_Logo")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Logo.pretty")(options "")(descr ""))
+  (lib (name "MAI_Potentiometer_THT")(type "KiCad")(uri "${KIPRJMOD}/kicad-libraries/footprints/MAI_Potentiometer_THT.pretty")(options "")(descr ""))
+)

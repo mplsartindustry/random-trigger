@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "54266ad3-2934-4712-ba21-3daef29c1267")
 	(paper "A4")
 	(lib_symbols
@@ -93,6 +93,78 @@
 						(type background)
 					)
 				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -129,78 +201,6 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "4013_2_1"
 				(rectangle
@@ -215,16 +215,16 @@
 					)
 				)
 				(pin input line
-					(at 0 -7.62 90)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "R"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -243,42 +243,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -305,16 +269,52 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "D"
+					(name "R"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -374,6 +374,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "4xxx:4081"
 			(pin_names
@@ -453,9 +454,9 @@
 			)
 			(symbol "4081_1_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -533,9 +534,9 @@
 			)
 			(symbol "4081_1_2"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -544,10 +545,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -568,10 +569,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -588,18 +601,6 @@
 					)
 					(stroke
 						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -663,9 +664,9 @@
 			)
 			(symbol "4081_2_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -684,24 +685,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -733,6 +716,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -743,9 +744,9 @@
 			)
 			(symbol "4081_2_2"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -754,10 +755,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -778,10 +779,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -802,36 +815,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input inverted
@@ -870,12 +853,30 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "4081_3_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -894,24 +895,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -943,6 +926,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -953,9 +954,9 @@
 			)
 			(symbol "4081_3_2"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -964,10 +965,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -988,10 +989,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1012,36 +1025,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input inverted
@@ -1080,12 +1063,30 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "4081_4_1"
 				(arc
-					(start 0 -3.81)
+					(start 0 3.81)
 					(mid 3.7934 0)
-					(end 0 3.81)
+					(end 0 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1104,24 +1105,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -1160,12 +1143,30 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "4081_4_2"
 				(arc
-					(start -3.81 -3.81)
+					(start -3.81 3.81)
 					(mid -2.589 0)
-					(end -3.81 3.81)
+					(end -3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1174,10 +1175,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1198,10 +1199,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1224,36 +1237,6 @@
 						(type background)
 					)
 				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at -7.62 2.54 0)
 					(length 4.318)
@@ -1283,6 +1266,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1342,6 +1343,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
@@ -1434,17 +1436,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1470,17 +1472,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1588,24 +1590,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -1617,6 +1601,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1695,24 +1697,6 @@
 			)
 			(symbol "TL074_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1730,7 +1714,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:AudioJack2_SwitchT"
 			(exclude_from_sim no)
@@ -1811,6 +1814,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.778 -0.254) (xy 2.032 -0.762)
 					)
 					(stroke
@@ -1821,9 +1836,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1843,29 +1869,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -1925,10 +1928,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1995,30 +2001,19 @@
 			)
 			(symbol "Conn_02x05_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2039,8 +2034,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2050,19 +2045,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2072,8 +2056,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2083,8 +2067,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start 3.81 5.207)
+					(end 2.54 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2105,8 +2089,30 @@
 					)
 				)
 				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2134,42 +2140,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -2180,24 +2150,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2224,24 +2176,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
@@ -2252,6 +2186,78 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2278,16 +2284,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_9"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2296,9 +2302,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -2371,7 +2380,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2383,7 +2392,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2432,9 +2441,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -2590,11 +2602,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2674,10 +2691,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2686,10 +2703,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2735,11 +2752,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2807,10 +2829,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2831,7 +2865,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2843,22 +2877,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2904,9 +2926,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -3025,10 +3050,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3094,12 +3122,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3118,11 +3145,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3150,24 +3178,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -3185,7 +3195,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:LM7805_TO220"
 			(pin_names
@@ -3326,10 +3355,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3402,6 +3434,18 @@
 			(symbol "2N3904_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -3424,12 +3468,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3448,37 +3491,8 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -3515,7 +3529,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
@@ -3593,7 +3626,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3605,7 +3638,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3619,7 +3652,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+12V"
 						(effects
 							(font
@@ -3636,6 +3670,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -3713,7 +3748,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3725,7 +3760,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3739,7 +3774,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -3756,6 +3792,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-12V"
 			(power)
@@ -3821,7 +3858,8 @@
 			(symbol "-12V_0_0"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-12V"
 						(effects
 							(font
@@ -3852,6 +3890,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -3931,7 +3970,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -3948,7 +3988,38 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Probability B"
+		(exclude_from_sim no)
+		(at 136.144 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37a664bd-64f7-4db2-a587-f4b572a91107")
+	)
+	(text "STRIPE"
+		(exclude_from_sim no)
+		(at 34.036 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f3a8636-bc47-49dd-af00-d5895971d18d")
+	)
+	(text "Probability A"
+		(exclude_from_sim no)
+		(at 136.144 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4d20f65-7d6a-43d1-b60c-57c416870dda")
 	)
 	(junction
 		(at 204.47 97.79)
@@ -4814,7 +4885,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 172.72 121.92)
+			(xy 172.72 127) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 121.92) (xy 167.64 121.92)
+			(xy 172.72 120.65) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5064,7 +5135,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 73.66) (xy 180.34 68.58)
+			(xy 180.34 74.93) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5704,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 180.34 73.66)
+			(xy 182.88 74.93) (xy 180.34 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5802,39 +5873,9 @@
 		)
 		(uuid "ff2e7239-c8e9-4b58-bdb2-84b78a11191d")
 	)
-	(text "Probability B"
-		(exclude_from_sim no)
-		(at 136.144 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37a664bd-64f7-4db2-a587-f4b572a91107")
-	)
-	(text "STRIPE"
-		(exclude_from_sim no)
-		(at 34.036 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f3a8636-bc47-49dd-af00-d5895971d18d")
-	)
-	(text "Probability A"
-		(exclude_from_sim no)
-		(at 136.144 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e4d20f65-7d6a-43d1-b60c-57c416870dda")
-	)
 	(global_label "Trigger Normal"
 		(shape input)
-		(at 167.64 121.92 180)
+		(at 167.64 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5844,7 +5885,7 @@
 		)
 		(uuid "3bdbba4c-f4b1-4102-b51c-919a32d3279d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3826 121.92 0)
+			(at 150.3826 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +5897,7 @@
 	)
 	(global_label "Trigger Normal"
 		(shape output)
-		(at 182.88 73.66 0)
+		(at 182.88 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5866,7 +5907,7 @@
 		)
 		(uuid "72fddd3b-9588-42fb-9f58-83bed9bdb73a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.1374 73.66 0)
+			(at 200.1374 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +5976,7 @@
 			(uuid "44f7395f-84a1-4b1e-b1b3-28fd23c7fab7")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR05")
 					(unit 1)
@@ -6041,7 +6082,7 @@
 			(uuid "78a6bf99-bd42-4e54-8416-b93116cd66a2")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U3")
 					(unit 2)
@@ -6108,7 +6149,7 @@
 			(uuid "9e753fbe-de14-47ea-bb0d-d77e83748c4c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR01")
 					(unit 1)
@@ -6175,7 +6216,7 @@
 			(uuid "68c76150-02b1-42e0-b40d-558010261e2c")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D4")
 					(unit 1)
@@ -6242,7 +6283,7 @@
 			(uuid "04fccb59-dcb7-4e2a-adc1-68b936ddc9df")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR03")
 					(unit 1)
@@ -6278,7 +6319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -6315,7 +6356,7 @@
 			(uuid "c794d93c-2fd2-4efb-9aa2-9809baf9febe")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J7")
 					(unit 1)
@@ -6382,7 +6423,7 @@
 			(uuid "bb89cda3-6cb0-4b2c-8cdd-2fcb51eaf86b")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0131")
 					(unit 1)
@@ -6450,7 +6491,7 @@
 			(uuid "d48c952f-f439-4135-94cb-c11534b4b9e0")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R9")
 					(unit 1)
@@ -6518,7 +6559,7 @@
 			(uuid "7c578dbb-9347-485b-8910-5d36a44c48a1")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D2")
 					(unit 1)
@@ -6553,7 +6594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 91.44 22.86 0)
 			(effects
 				(font
@@ -6590,7 +6631,7 @@
 			(uuid "f0bb3b81-a7de-4ce7-8450-57c7ab7c6898")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J2")
 					(unit 1)
@@ -6657,7 +6698,7 @@
 			(uuid "aef164df-b170-4307-90a7-e1c387f7073d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R12")
 					(unit 1)
@@ -6723,7 +6764,7 @@
 			(uuid "7d5265d4-e00d-47ef-ba28-94468753b5b5")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0114")
 					(unit 1)
@@ -6790,7 +6831,7 @@
 			(uuid "273d1f15-e844-4382-a7b9-fee3dbc5cfe5")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D5")
 					(unit 1)
@@ -6860,7 +6901,7 @@
 			(uuid "ec43bced-3fc3-42f4-b0e7-fe0ec1e8a9c2")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R1")
 					(unit 1)
@@ -6926,7 +6967,7 @@
 			(uuid "f1272b46-3378-4b5f-8a04-a7a12bafb71d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0132")
 					(unit 1)
@@ -6993,7 +7034,7 @@
 			(uuid "991b16a5-dbd5-4b4f-a4fc-0e63897849c9")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R4")
 					(unit 1)
@@ -7029,7 +7070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -7066,7 +7107,7 @@
 			(uuid "3d6dc281-419d-4395-817e-a759802ec9da")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J9")
 					(unit 1)
@@ -7132,7 +7173,7 @@
 			(uuid "fc2eee28-7603-41d7-bf56-2d08a7f2524a")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0101")
 					(unit 1)
@@ -7236,7 +7277,7 @@
 			(uuid "87899109-b1ce-478e-a82a-c6125254645a")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U4")
 					(unit 2)
@@ -7302,7 +7343,7 @@
 			(uuid "f1272b46-3378-4b5f-8a04-a7a12bafb71e")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0135")
 					(unit 1)
@@ -7408,7 +7449,7 @@
 			(uuid "038197e6-2958-467f-b125-aba3e3c06c62")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U1")
 					(unit 5)
@@ -7474,7 +7515,7 @@
 			(uuid "a3c6a8c6-f5ce-4681-83fa-dcb9ee171b7d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0106")
 					(unit 1)
@@ -7510,7 +7551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 100.33 0)
 			(effects
 				(font
@@ -7547,7 +7588,7 @@
 			(uuid "85478445-8540-46bb-947d-c9c395915c13")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J10")
 					(unit 1)
@@ -7651,7 +7692,7 @@
 			(uuid "038197e6-2958-467f-b125-aba3e3c06c66")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U1")
 					(unit 3)
@@ -7718,7 +7759,7 @@
 			(uuid "83c1e85f-5de1-4241-900e-0ed6600605a2")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D8")
 					(unit 1)
@@ -7809,7 +7850,7 @@
 			(uuid "e5598afc-0c04-4a05-90a7-406640cc44ff")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J1")
 					(unit 1)
@@ -7876,7 +7917,7 @@
 			(uuid "8683e3c0-79f7-4de3-9eca-39bed8cd8647")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0123")
 					(unit 1)
@@ -7953,7 +7994,7 @@
 			(uuid "cfbb5a7e-04d6-4bd7-af64-e10bc6459aa0")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "Q2")
 					(unit 1)
@@ -8020,7 +8061,7 @@
 			(uuid "ee48ea0a-e390-431e-bafe-9bd9404002a2")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R27")
 					(unit 1)
@@ -8086,7 +8127,7 @@
 			(uuid "34fb7be7-b5ff-4365-a85c-3ca9fe887ffe")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0125")
 					(unit 1)
@@ -8152,7 +8193,7 @@
 			(uuid "4add202c-0977-4570-86ef-94af7837bdd2")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0115")
 					(unit 1)
@@ -8222,7 +8263,7 @@
 			(uuid "07912c05-a0b2-4c64-bfbf-78b5b0323479")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R34")
 					(unit 1)
@@ -8288,7 +8329,7 @@
 			(uuid "f1272b46-3378-4b5f-8a04-a7a12bafb71f")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0136")
 					(unit 1)
@@ -8358,7 +8399,7 @@
 			(uuid "d48c952f-f439-4135-94cb-c11534b4b9e1")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R10")
 					(unit 1)
@@ -8424,7 +8465,7 @@
 			(uuid "33bf482a-dd57-4d5d-80cb-538b1daf8b7a")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0105")
 					(unit 1)
@@ -8494,7 +8535,7 @@
 			(uuid "63860c8e-06aa-41a4-87f8-1d6ea0521419")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R7")
 					(unit 1)
@@ -8561,7 +8602,7 @@
 			(uuid "ff6d5d95-788c-4ded-bb34-cf532a34cb70")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR04")
 					(unit 1)
@@ -8627,7 +8668,7 @@
 			(uuid "6de071de-970e-418a-b36e-c61f58c8af22")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0134")
 					(unit 1)
@@ -8731,7 +8772,7 @@
 			(uuid "038197e6-2958-467f-b125-aba3e3c06c63")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U1")
 					(unit 1)
@@ -8767,7 +8808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 25.4 0)
 			(effects
 				(font
@@ -8804,7 +8845,7 @@
 			(uuid "b237bef1-aa90-4ede-a809-1d7745d5416a")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J5")
 					(unit 1)
@@ -8872,7 +8913,7 @@
 			(uuid "0229b2f9-2452-4b81-a65d-fab9621a641c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R19")
 					(unit 1)
@@ -8939,7 +8980,7 @@
 			(uuid "aef164df-b170-4307-90a7-e1c387f7073e")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R14")
 					(unit 1)
@@ -8976,7 +9017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -9013,7 +9054,7 @@
 			(uuid "63f54ee6-c0b2-49c9-ac04-590d73ed9441")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J4")
 					(unit 1)
@@ -9083,7 +9124,7 @@
 			(uuid "207fab2b-4e47-426c-8b81-ce76a563629b")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R23")
 					(unit 1)
@@ -9149,7 +9190,7 @@
 			(uuid "1e6ac7ee-81c6-4fcd-94fd-36854996e481")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0109")
 					(unit 1)
@@ -9215,7 +9256,7 @@
 			(uuid "b0e24d02-3e16-4d02-9709-ec1ba9097029")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0108")
 					(unit 1)
@@ -9285,7 +9326,7 @@
 			(uuid "e5fa3463-c322-442e-8146-a626ee552c36")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C3")
 					(unit 1)
@@ -9352,7 +9393,7 @@
 			(uuid "7a31bcbb-dd25-483c-9ca8-a90a6d4720c5")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR07")
 					(unit 1)
@@ -9422,7 +9463,7 @@
 			(uuid "991b16a5-dbd5-4b4f-a4fc-0e63897849ca")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R3")
 					(unit 1)
@@ -9490,7 +9531,7 @@
 			(uuid "5edc4045-08a5-49be-9fde-89cd53507755")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R32")
 					(unit 1)
@@ -9594,7 +9635,7 @@
 			(uuid "6e963e4b-10e9-4a07-98c4-78ac75b8760d")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U1")
 					(unit 4)
@@ -9700,7 +9741,7 @@
 			(uuid "78a6bf99-bd42-4e54-8416-b93116cd66a3")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U3")
 					(unit 1)
@@ -9767,7 +9808,7 @@
 			(uuid "f9cd3715-f784-49dc-bded-a7d3c3d6ac81")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D3")
 					(unit 1)
@@ -9834,7 +9875,7 @@
 			(uuid "e6e02665-1e1e-4cbd-96b1-4a097a1c9ba2")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0122")
 					(unit 1)
@@ -9904,7 +9945,7 @@
 			(uuid "66065910-ab6a-488c-bb1f-3c9d4a102f21")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R11")
 					(unit 1)
@@ -9970,7 +10011,7 @@
 			(uuid "993eac88-7c98-498b-b8c0-bec9e23dca7c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0128")
 					(unit 1)
@@ -10004,7 +10045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "MAI_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -10041,7 +10082,7 @@
 			(uuid "0077aa2f-3cdf-45fa-b80c-37f81569e0bf")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "RV1")
 					(unit 1)
@@ -10109,7 +10150,7 @@
 			(uuid "1ef8f049-729a-4ff2-b9d9-26fd37b8e0ef")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R22")
 					(unit 1)
@@ -10177,7 +10218,7 @@
 			(uuid "fb2de1e6-a5b7-4a88-9c5d-d5b6f21b7107")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C6")
 					(unit 1)
@@ -10243,7 +10284,7 @@
 			(uuid "d1c4e2a1-11ca-4b72-b744-d99abe11d183")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0118")
 					(unit 1)
@@ -10311,7 +10352,7 @@
 			(uuid "62900faf-ddc4-47e7-80f0-3e93bc233e9c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C5")
 					(unit 1)
@@ -10379,7 +10420,7 @@
 			(uuid "4a1f7577-c2cc-4162-a19b-b654256fef8f")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C4")
 					(unit 1)
@@ -10450,7 +10491,7 @@
 			(uuid "cbdcbba3-a602-4551-b0c8-79512f2e6048")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R5")
 					(unit 1)
@@ -10527,7 +10568,7 @@
 			(uuid "5c16fd13-faac-48b5-85bc-538271cfcdd8")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "Q1")
 					(unit 1)
@@ -10594,7 +10635,7 @@
 			(uuid "50d9280a-d4f0-4a7d-b3ee-dbc2e4430533")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR06")
 					(unit 1)
@@ -10662,7 +10703,7 @@
 			(uuid "579ea2f4-ecb1-496b-80d1-361e983cbccc")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D1")
 					(unit 1)
@@ -10732,7 +10773,7 @@
 			(uuid "d08fdd1e-91ca-4e97-b8b3-28feed1a1e58")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R20")
 					(unit 1)
@@ -10836,7 +10877,7 @@
 			(uuid "87899109-b1ce-478e-a82a-c6125254645b")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U4")
 					(unit 3)
@@ -10902,7 +10943,7 @@
 			(uuid "a12e833d-82d4-42a1-962f-d4bb173a50a9")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0126")
 					(unit 1)
@@ -11006,7 +11047,7 @@
 			(uuid "87899109-b1ce-478e-a82a-c6125254645c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U4")
 					(unit 4)
@@ -11072,7 +11113,7 @@
 			(uuid "6bcfceb2-c741-433c-bbf4-f6065dcadae8")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0117")
 					(unit 1)
@@ -11142,7 +11183,7 @@
 			(uuid "e5fa3463-c322-442e-8146-a626ee552c37")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C2")
 					(unit 1)
@@ -11178,7 +11219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 115.57 0)
 			(effects
 				(font
@@ -11215,7 +11256,7 @@
 			(uuid "80c32088-04ae-4439-81bf-15f7bede06b5")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J11")
 					(unit 1)
@@ -11285,7 +11326,7 @@
 			(uuid "4cbd942a-7f8b-4ddb-a15d-7f18b4a908e9")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R16")
 					(unit 1)
@@ -11353,7 +11394,7 @@
 			(uuid "63dbafe5-293c-4c47-a15f-2b0bd986e9fb")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R31")
 					(unit 1)
@@ -11419,7 +11460,7 @@
 			(uuid "93954b75-9bad-423a-9138-c153c2f25914")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0107")
 					(unit 1)
@@ -11489,7 +11530,7 @@
 			(uuid "15cf4947-ccae-4770-86e7-14b6aa5bdb4d")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R17")
 					(unit 1)
@@ -11556,7 +11597,7 @@
 			(uuid "3c6c9d06-4eed-4488-bc20-ea433b7d41b3")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D7")
 					(unit 1)
@@ -11622,7 +11663,7 @@
 			(uuid "d41ba7e3-39a7-4c7a-8536-d3b6d587597d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0120")
 					(unit 1)
@@ -11726,7 +11767,7 @@
 			(uuid "87899109-b1ce-478e-a82a-c6125254645d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U4")
 					(unit 1)
@@ -11793,7 +11834,7 @@
 			(uuid "608a5a07-be99-4f39-b2ee-f290e0cfff9b")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R18")
 					(unit 1)
@@ -11860,7 +11901,7 @@
 			(uuid "7f040001-2180-473a-b15a-33569e245003")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R26")
 					(unit 1)
@@ -11896,7 +11937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -11933,7 +11974,7 @@
 			(uuid "ec6c0920-6107-4481-b378-0e3aefe706b1")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J3")
 					(unit 1)
@@ -12003,7 +12044,7 @@
 			(uuid "ca7a396b-89a9-4922-b2c1-8cc587446004")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R35")
 					(unit 1)
@@ -12070,7 +12111,7 @@
 			(uuid "d9159c9e-db39-41de-be08-6755875af7b3")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "D6")
 					(unit 1)
@@ -12174,7 +12215,7 @@
 			(uuid "038197e6-2958-467f-b125-aba3e3c06c65")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U1")
 					(unit 2)
@@ -12244,7 +12285,7 @@
 			(uuid "ad75a11d-29ac-4de3-a014-51ee6fc89f50")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C1")
 					(unit 1)
@@ -12310,7 +12351,7 @@
 			(uuid "89d81e2e-94fd-495d-89f4-94294a2feff8")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0112")
 					(unit 1)
@@ -12376,7 +12417,7 @@
 			(uuid "63a90d61-00e4-4fc9-a493-d6b4d1539046")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0110")
 					(unit 1)
@@ -12448,7 +12489,7 @@
 			(uuid "698c3677-3c91-4683-b4d6-fcd4d8444280")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U2")
 					(unit 1)
@@ -12514,7 +12555,7 @@
 			(uuid "ce5a6f66-23e7-4d70-a1f4-49945874476a")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0116")
 					(unit 1)
@@ -12584,7 +12625,7 @@
 			(uuid "698ec46b-73c0-4980-90a3-e7a5623b43c2")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R2")
 					(unit 1)
@@ -12650,7 +12691,7 @@
 			(uuid "c2208aa7-4921-49b3-995a-8e85b9b6bacc")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0119")
 					(unit 1)
@@ -12720,7 +12761,7 @@
 			(uuid "63860c8e-06aa-41a4-87f8-1d6ea052141a")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R8")
 					(unit 1)
@@ -12788,7 +12829,7 @@
 			(uuid "ae699b0f-b36c-4562-9ed2-699dff64a2b5")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R29")
 					(unit 1)
@@ -12825,7 +12866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 163.83 129.54 0)
 			(effects
 				(font
@@ -12862,7 +12903,7 @@
 			(uuid "646562ef-dccc-4a9c-b389-9dadf995bddf")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J8")
 					(unit 1)
@@ -12932,7 +12973,7 @@
 			(uuid "72e214b4-1768-4104-9dde-651b9070bf93")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R21")
 					(unit 1)
@@ -13002,7 +13043,7 @@
 			(uuid "7cdc6fb0-6ae6-4c46-adf4-051ee8344081")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R15")
 					(unit 1)
@@ -13068,7 +13109,7 @@
 			(uuid "d2d604d4-a64e-4040-aabf-36c5d41826b9")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0113")
 					(unit 1)
@@ -13136,7 +13177,7 @@
 			(uuid "c9afeffb-14f9-427f-b83d-9902d5a961cb")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R28")
 					(unit 1)
@@ -13202,7 +13243,7 @@
 			(uuid "0cd681f9-8341-4d21-8ef8-2a126a5ad6a8")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0103")
 					(unit 1)
@@ -13308,7 +13349,7 @@
 			(uuid "78a6bf99-bd42-4e54-8416-b93116cd66a4")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U3")
 					(unit 3)
@@ -13374,7 +13415,7 @@
 			(uuid "56d49648-d035-4002-97c1-371c06c5665c")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR08")
 					(unit 1)
@@ -13442,7 +13483,7 @@
 			(uuid "40f9c3dc-a6ae-417c-a5be-b063be291167")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R30")
 					(unit 1)
@@ -13509,7 +13550,7 @@
 			(uuid "315d3b42-2a8a-4cde-ac44-1845073757ef")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0121")
 					(unit 1)
@@ -13543,7 +13584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "MAI_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -13580,7 +13621,7 @@
 			(uuid "b255a6c0-480b-4e6d-964c-3a8ec14c9fa4")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "RV2")
 					(unit 1)
@@ -13647,7 +13688,7 @@
 			(uuid "e5c21d36-efa4-4d29-8454-5fdf0e798f15")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R25")
 					(unit 1)
@@ -13714,7 +13755,7 @@
 			(uuid "b73415ee-dc8f-4ecd-b5dd-529b8fdd0957")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0124")
 					(unit 1)
@@ -13780,7 +13821,7 @@
 			(uuid "4537ba66-24fe-4f65-a691-faac9ab4a7b9")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0102")
 					(unit 1)
@@ -13886,7 +13927,7 @@
 			(uuid "87899109-b1ce-478e-a82a-c6125254645e")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "U4")
 					(unit 5)
@@ -13956,7 +13997,7 @@
 			(uuid "6907220f-0d9c-4793-8578-824d392100f5")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R6")
 					(unit 1)
@@ -14022,7 +14063,7 @@
 			(uuid "caf22596-21b6-44a2-a983-02233db7ca18")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0127")
 					(unit 1)
@@ -14090,7 +14131,7 @@
 			(uuid "79e0ee57-efd2-4843-965f-de266a8d657b")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "C7")
 					(unit 1)
@@ -14156,7 +14197,7 @@
 			(uuid "6de071de-970e-418a-b36e-c61f58c8af23")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0133")
 					(unit 1)
@@ -14223,7 +14264,7 @@
 			(uuid "4406d10b-2bbc-4283-8a9e-6c970e0cbd50")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR02")
 					(unit 1)
@@ -14291,7 +14332,7 @@
 			(uuid "fa5c6d25-6cdd-4398-8a93-fec7066c4ee4")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R33")
 					(unit 1)
@@ -14361,7 +14402,7 @@
 			(uuid "11e9d09c-63f7-42a5-8e69-8c3f58342700")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R24")
 					(unit 1)
@@ -14427,7 +14468,7 @@
 			(uuid "c73db1ce-e9d9-4c03-9997-41f642afdc95")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0129")
 					(unit 1)
@@ -14494,7 +14535,7 @@
 			(uuid "aef164df-b170-4307-90a7-e1c387f7073f")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "R13")
 					(unit 1)
@@ -14560,7 +14601,7 @@
 			(uuid "c7b2a7f5-cfdb-4518-b084-6c5ce8f3f7e2")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0104")
 					(unit 1)
@@ -14626,7 +14667,7 @@
 			(uuid "97e16df7-7c40-4bb6-a9bc-4883d0acbf2d")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0111")
 					(unit 1)
@@ -14692,7 +14733,7 @@
 			(uuid "f9e5e4bd-191b-438b-9844-97c95063c109")
 		)
 		(instances
-			(project "Random Trigger"
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR09")
 					(unit 1)
@@ -14728,7 +14769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Extras:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+		(property "Footprint" "MAI_Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -14765,7 +14806,7 @@
 			(uuid "1e4cbf5e-73d3-4c35-a062-f87d3e66e0cd")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "J6")
 					(unit 1)
@@ -14831,7 +14872,7 @@
 			(uuid "a7c1970d-e6d6-4c49-9cc5-d892294c7243")
 		)
 		(instances
-			(project ""
+			(project "random-trigger"
 				(path "/54266ad3-2934-4712-ba21-3daef29c1267"
 					(reference "#PWR0130")
 					(unit 1)
@@ -14844,4 +14885,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
