@@ -1136,7 +1136,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MAI_PanelHole:PanelHole_PJ301BM"
+	(footprint "MAI_PanelHole:PanelHole_PJ301BM_Output"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "4617db2c-bcdc-4791-9cdd-cd91357a3bce")
@@ -1154,7 +1154,7 @@
 				)
 			)
 		)
-		(property "Value" "PanelHole_PJ301BM"
+		(property "Value" "PanelHole_PJ301BM_Output"
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1195,6 +1195,17 @@
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
+			(start -3.75 -3.75)
+			(end 3.75 3.75)
+			(stroke
+				(width 1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "128f90f6-d9dc-4dde-8ddb-bde76b7cefdb")
+		)
+		(fp_rect
 			(start -5.4 -6.2)
 			(end 5.4 5.7)
 			(stroke
@@ -1203,7 +1214,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "22acbb79-e9c2-4aac-b5c6-cc6a9f654cae")
+			(uuid "dad42750-c9ce-44ff-a750-22e4f4473233")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -1222,7 +1233,7 @@
 			(size 6.1 6.1)
 			(drill 6.1)
 			(layers "*.Mask")
-			(uuid "5e180e0e-0d60-40d3-84a0-10be120e6386")
+			(uuid "65160901-a4f6-43ed-a924-e67818e49cc1")
 		)
 		(embedded_fonts no)
 	)
